@@ -85,7 +85,6 @@ nlu:
     - so saad
     - so sad
 
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -93,13 +92,10 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-
 - intent: underdstand_cryptocurency
   examples: |
     - what is Cryptocurrency
     - Crytocurrency?
-    - 
-
 
 - intent: where_to_start
   examples: |
@@ -108,7 +104,6 @@ nlu:
     - What should i do first?
     - what is the fisrt step?
     - How should is get start?
-
 
 - intent: understand_wallet
   examples: |
