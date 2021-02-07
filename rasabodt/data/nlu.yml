@@ -90,3 +90,36 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: underdstand_cryptocurency
+  examples: |
+    - what is Cryptocurrency
+    - Crytocurrency?
+    - 
+
+- intent: where_to_start
+  examples: |
+    - So How do i get started?
+    - where do i start?
+    - What should i do first?
+    - what is the fisrt step?
+    - How should is get start?
+
+
+- intent: understand_wallet
+  examples: |
+    - wallet?
+    - what is a wallet?
+    - how do i pick a wallet?
+    - what is the best wallet?
+    - what wallet do you recommend?
+    - What do i get a wallet
+    - What does a wallet do?
+
+- intent: see_data/exchange_rate
+  examples: |
+    - What is the price?
+    - what is the ratio?
+    - what is the exchange rate?
+    - how much does a cryptocurency cost?
+    - how mush is it worth?
