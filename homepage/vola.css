@@ -1,0 +1,313 @@
+.u-section-2-1 {
+  background-image: url("images/Volatility_usdt-tether.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2-1 .u-sheet-1 {
+  min-height: 1011px;
+}
+
+.u-section-2-1 .u-text-1 {
+  animation-duration: 1000ms;
+  text-shadow: 0 2px 8px rgba(128,128,128,1);
+  font-size: 3.125rem;
+  margin: 23px 0 60px -26px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-1 .u-sheet-1 {
+    min-height: 834px;
+  }
+
+  .u-section-2-1 .u-text-1 {
+    margin-left: 236px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-1 .u-sheet-1 {
+    min-height: 639px;
+  }
+
+  .u-section-2-1 .u-text-1 {
+    margin-left: 181px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2-1 .u-sheet-1 {
+    min-height: 479px;
+  }
+
+  .u-section-2-1 .u-text-1 {
+    margin-left: 136px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2-1 .u-sheet-1 {
+    min-height: 302px;
+  }
+
+  .u-section-2-1 .u-text-1 {
+    font-size: 3rem;
+    margin-left: 86px;
+  }
+}.u-section-2-2 {
+  background-image: url("images/Volatility_btc-bitcoin.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2-2 .u-sheet-1 {
+  min-height: 1011px;
+}
+
+.u-section-2-2 .u-text-1 {
+  animation-duration: 1000ms;
+  text-shadow: 0 2px 8px rgba(128,128,128,1);
+  font-size: 3.125rem;
+  margin: 20px -1133px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-2 .u-sheet-1 {
+    min-height: 834px;
+  }
+
+  .u-section-2-2 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-2 .u-sheet-1 {
+    min-height: 639px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2-2 .u-sheet-1 {
+    min-height: 479px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2-2 .u-sheet-1 {
+    min-height: 302px;
+  }
+
+  .u-section-2-2 .u-text-1 {
+    font-size: 3rem;
+  }
+}.u-section-2-3 {
+  background-image: url("images/Volatility_usdt-tether.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2-3 .u-sheet-1 {
+  min-height: 1011px;
+}
+
+.u-section-2-3 .u-text-1 {
+  animation-duration: 1000ms;
+  text-shadow: 0 2px 8px rgba(128,128,128,1);
+  font-size: 3.125rem;
+  margin: 27px -2253px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-3 .u-sheet-1 {
+    min-height: 834px;
+  }
+
+  .u-section-2-3 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-3 .u-sheet-1 {
+    min-height: 639px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2-3 .u-sheet-1 {
+    min-height: 479px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2-3 .u-sheet-1 {
+    min-height: 302px;
+  }
+
+  .u-section-2-3 .u-text-1 {
+    font-size: 3rem;
+  }
+}.u-section-2-4 {
+  background-image: url("images/Volatility_doge-dogecoin.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2-4 .u-sheet-1 {
+  min-height: 1011px;
+}
+
+.u-section-2-4 .u-text-1 {
+  animation-duration: 1000ms;
+  text-shadow: 0 2px 8px rgba(128,128,128,1);
+  font-size: 3.125rem;
+  margin: 20px -1133px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-4 .u-sheet-1 {
+    min-height: 834px;
+  }
+
+  .u-section-2-4 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-4 .u-sheet-1 {
+    min-height: 639px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2-4 .u-sheet-1 {
+    min-height: 479px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2-4 .u-sheet-1 {
+    min-height: 302px;
+  }
+
+  .u-section-2-4 .u-text-1 {
+    font-size: 3rem;
+  }
+}.u-section-2-5 {
+  background-image: url("images/Volatility_ltc-litecoin.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2-5 .u-sheet-1 {
+  min-height: 1011px;
+}
+
+.u-section-2-5 .u-text-1 {
+  animation-duration: 1000ms;
+  text-shadow: 0 2px 8px rgba(128,128,128,1);
+  font-size: 3.125rem;
+  margin: 20px -1133px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-5 .u-sheet-1 {
+    min-height: 834px;
+  }
+
+  .u-section-2-5 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-5 .u-sheet-1 {
+    min-height: 639px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2-5 .u-sheet-1 {
+    min-height: 479px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2-5 .u-sheet-1 {
+    min-height: 302px;
+  }
+
+  .u-section-2-5 .u-text-1 {
+    font-size: 3rem;
+  }
+}.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/46646736f0d0cef10f9f7f207306ebf79bb1e78d54098919c41d61f4de4461b162371eb389930a6d770c5b9021aabf7d6f840bf5fcfad757467594_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 191px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 4.375rem;
+  animation-duration: 1000ms;
+  margin: 57px 428px 57px -80px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 158px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 328px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 121px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 218px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 91px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 57px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+  }
+}.u-block-5e11-2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.u-block-5e11-3 {
+  position: absolute;
+  left: 0;
+}
+
+.u-block-5e11-4 {
+  position: absolute;
+  right: 0;
+}
