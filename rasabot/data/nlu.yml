@@ -95,6 +95,9 @@ nlu:
   examples: |
     - what is Cryptocurrency
     - Crytocurrency?
+    - what does cryptocurrency do?
+    - How does cryptocurrency work?
+    - what is cryptocurrency used for?
 
 - intent: where_to_start
   examples: |
@@ -113,6 +116,9 @@ nlu:
     - what wallet do you recommend?
     - What do i get a wallet
     - What does a wallet do?
+    - How to buy cryptocurrency?
+    - How to sell cryptocurrency?
+    - why do i need a wallet?
 
 - intent: see_data/exchange_rate
   examples: |
@@ -121,3 +127,9 @@ nlu:
     - what is the exchange rate?
     - how much does a cryptocurency cost?
     - how mush is it worth?
+    - How much money will i get back
+
+#best on to invest in
+#available cryptocurrency
+#going rate for a cryptocurrency
+#how volitile is this cryptocurrency
