@@ -8,27 +8,52 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - underdstand_cryptocurrency
+  - where_to_start
+  - understand_wallet
+  - see_data_exchange_rate
+
+actions:
+  - greet_respond
+  - do_understand
+  - say_goodbye
+  - explain_cryptocurrency
+  - cryptocurrency_sources
+  - do_understand_cryptocurrency
+  - explain_wallet
+  - wallet_web_sources
+  - wallet_sources
+  - showstuffs
+
+
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  greet_respond:
+  - text: "Oh hello there buddy. How may i help you today?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  do_understand:
+  - text: "do you understand?"
+  
+  say_goodbye:
+  - text: "Well goodbye. come back if you need assisstance"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  explain_cryptocurrency:
+  - text: "It is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger existing in a form of computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  cryptocurrency_sources:
+  - text: "Ok well maybe you can take a look at this short video for more info: https://www.youtube.com/watch?v=6Gu2QMTAkEU&ab_channel=Blockgeeks"
 
-  utter_goodbye:
-  - text: "Bye"
+  do_understand_cryptocurrency:
+  - text: "do you know how cryptocurrency works?"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  explain_wallet:
+  - text: " i think the best place to start is getting a wallet to store, buy and track your cryptocurrency then coming back to check out our analysis tool to help decide which to buy and tactics of investment"
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  wallet_web_sources:
+  - text: "You can check out this link to view different wallets with there respective strengths and weaknesses https://www.thebalance.com/best-bitcoin-wallets-4160642"
+
+  wallet_sources:
+  - text: "To learn more about wallets, what they are for and how they work, you can check out this short video https://www.youtube.com/watch?v=d8IBpfs9bf4" 
+  
+  showstuffs:
+  - text: "visit the alalysis page for details on each cryptocurrency."
