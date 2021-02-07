@@ -1,0 +1,106 @@
+version: "2.0"
+
+stories:
+
+- story: hello and understand the cryptocurrency
+  steps:
+  - intent: greet
+  - action: greet_respond
+  - intent: underdstand_cryptocurrency
+  - intent: explain_cryptocurrency
+  - action: do_understand
+  - intent: affirm
+  - action: goodbye
+
+- story: hello and don't understand cryptocurrency
+  steps:
+  - intent: greet
+  - action: greet_respond
+  - intent: underdstand_cryptocurrency
+  - action: explain_cryptocurrency
+  - action: do_understand
+  - intent: deny
+  - action: cryptocurrency_sources
+
+- story: hello, how to get started and understand everything
+  steps:
+  - intent: greet
+  - action: greet_respond
+  - intent: where_to_start
+  - action: do_understand_cryptocurrency
+  - intent: affirm
+  - action: explain_wallet
+  - action: do_understand
+  - intent: affirm
+  - action: wallet_web_sources
+
+  - story: hello, how to get started and not understand wallet
+  steps:
+  - intent: greet
+  - action: greet_respond
+  - intent: where_to_start
+  - action: do_understand_cryptocurrency
+  - intent: affirm
+  - action: explain_wallet
+  - action: do_understand
+  - intent: deny
+  - action: wallet_sources
+  - action: wallet_web_sources
+
+  - story: hello, how to get started, not understand
+  steps:
+  - intent: greet
+  - action: greet_respond
+  - intent: where_to_start
+  - action: do_understand_cryptocurrency
+  - intent: deny
+  - action: cryptocurrency_sources
+
+  - story: hello and understand wallet
+  steps:
+  - intent: greet
+  - action: greet_respond
+  - intent: understand_wallet
+  - action: explain_wallet
+  - action: do_understand
+  - intent: affirm
+  - action: wallet_web_sources
+
+    - story: hello and not understand wallet
+  steps:
+  - intent: greet
+  - action: greet_respond
+  - intent: understand_wallet
+  - action: explain_wallet
+  - action: do_understand
+  - intent: deny
+  - action: wallet_sources
+  - action: wallet_web_sources
+
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
